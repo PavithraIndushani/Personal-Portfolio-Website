@@ -1,0 +1,29 @@
+/* Footer Container */
+footer {
+    background-color: #1a202c; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 1.5rem 0; /* Padding for top and bottom */
+    text-align: center; /* Center the content */
+    max-width: 100%;
+  }
+  
+  /* Navigation Links */
+  footer nav a {
+    color: #a0aec0; /* Gray text color for links */
+    margin: 0 1rem; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Text size */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  footer nav a:hover {
+    color: #63b3ed; /* Blue hover effect */
+  }
+  
+  /* Footer Bottom */
+  footer p {
+    color: #718096; /* Lighter gray text */
+    font-size: 0.875rem; /* Small font size */
+    margin-top: 1rem; /* Space above the copyright text */
+  }
+  

@@ -1,0 +1,48 @@
+.containerA {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #141e30, #0f172a);
+    padding-left: 3%;
+}
+
+.image-containerA {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-imageA {
+    width: 350px;
+    height: auto;
+    border-radius: 60px;
+}
+
+.text-container {
+    flex: 2;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e2e8f0; /* Text color for readability */
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.highlight {
+    color: #3b82f6; /* Blue color for emphasis */
+}
+
+.description {
+    font-size: 18px;
+    line-height: 2.5;
+    font-weight: bold;
+    color: #cbd5e1; /* Softer text color */
+}

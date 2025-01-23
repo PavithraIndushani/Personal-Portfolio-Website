@@ -1,0 +1,120 @@
+
+  
+  .education-section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #0f172a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .section-titleE {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3b82f6;
+    margin-bottom: 3rem;
+  }
+  
+  /* Timeline Styles */
+  .timeline {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    padding: 2rem 0;
+  }
+  
+  .timeline-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    background-color: #3b82f6;
+    z-index: 1;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 3rem;
+    width: 50%;
+    z-index: 2;
+  }
+  
+  .timeline-item.left {
+    left: 0;
+  }
+  
+  .timeline-item.right {
+    left: 50%;
+    text-align: right;
+  }
+  
+  .timeline-content {
+    background-color: #1e293b;
+    padding: 1.5rem;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .timeline-content::before {
+    content: "";
+    position: absolute;
+    top: 1.5rem;
+    width: 10px;
+    height: 10px;
+    background-color: #3b82f6;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
+  .timeline-item.left .timeline-content::before {
+    right: -5px;
+  }
+  
+  .timeline-item.right .timeline-content::before {
+    left: -5px;
+  }
+  
+  .timeline-year {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3b82f6;
+  }
+  
+  .timeline-institution {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .timeline-details {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .timeline-icon {
+    position: absolute;
+    top: 1rem;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+  }
+  
